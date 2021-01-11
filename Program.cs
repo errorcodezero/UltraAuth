@@ -30,17 +30,17 @@ namespace Application
                 // Returns 0 when the input and username are the same
                 int resultUsername = String.Compare(Username, Convert.ToString(Console.ReadLine()));
             
-                // Checks if username is valid
+                // Checks if Username is valid
                 if (resultUsername == 0) 
                 { 
                 
                     // Ask for Password
                     Console.WriteLine("Password: \n");
 
-                    // Returns 0 when the input and password are the same
+                    // Returns 0 when the input and Password are the same
                     int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
-                    // Checks if password is valid
+                    // Checks if Password is valid
                     if(resultPassword == 0) 
                     {
                         // Access Granted
@@ -56,6 +56,7 @@ namespace Application
                         Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
                         Console.ReadKey();
                     } 
+                    // Is run when Passoword is invalid
                     else 
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -65,6 +66,7 @@ namespace Application
                         Console.ForegroundColor = ConsoleColor.White;
                     }
                 } 
+                // Is run when Username is invalid
                 else 
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
