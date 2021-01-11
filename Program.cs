@@ -36,6 +36,8 @@ namespace Application
                 
                 // Checks if password is valid
                 if(resultPassword == 0) {
+
+                    // Access Granted
                     Console.ForegroundColor = ConsoleColor.Green;
                     
                     Console.WriteLine("Access Granted \n");
@@ -48,11 +50,12 @@ namespace Application
                 } 
             } 
             else {
+
                 Console.ForegroundColor = ConsoleColor.Red;
                 
                 Console.WriteLine("Error, That is not a valid Username");
             }
-            
+            // Access Denied
             Console.ForegroundColor = ConsoleColor.Red;
             
             Console.WriteLine("Access Denied \n");
