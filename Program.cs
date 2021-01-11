@@ -1,4 +1,5 @@
-﻿using System;
+﻿// For the latest version of the project, you can visit the GitHub Repository: https://github.com/yeetsquad747/UltraAuth
+using System;
 
 namespace Application
 {
@@ -26,6 +27,7 @@ namespace Application
             // Checks if username is valid
             if (resultUsername == 0) { 
                 
+                // Ask for Password
                 Console.WriteLine("Password: \n");
 
                 // Returns 0 when the input and username are the same
