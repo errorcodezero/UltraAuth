@@ -81,7 +81,7 @@ namespace Application
                 Console.ForegroundColor = ConsoleColor.White;
 
                 // Software Details
-                Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window or press enter to try again");
+                Console.WriteLine("UltraAuth™ All Rights Reserved 2021.");
 
                 Console.ReadKey();
             }
