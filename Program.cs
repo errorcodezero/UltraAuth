@@ -39,49 +39,49 @@ namespace Application
                     // Returns 0 when the input and password are the same
                     int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
-                // Checks if password is valid
-                if(resultPassword == 0) {
+                    // Checks if password is valid
+                    if(resultPassword == 0) {
 
-                    // Access Granted
-                    signedIn = true;
+                        // Access Granted
+                        signedIn = true;
 
-                    Console.ForegroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Green;
                     
-                    Console.WriteLine("Access Granted \n");
+                        Console.WriteLine("Access Granted \n");
 
-                    Console.ForegroundColor = ConsoleColor.White;
+                        Console.ForegroundColor = ConsoleColor.White;
                     
-                    // Software Details
-                    Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
-                    Console.ReadKey();
-                } 
+                        // Software Details
+                        Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
+                        Console.ReadKey();
+                    } 
+                    else {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    
+                        Console.WriteLine("Error, That is not a valid Password");
+
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+            } 
                 else {
+
                     Console.ForegroundColor = ConsoleColor.Red;
-                    
-                    Console.WriteLine("Error, That is not a valid Password");
+                
+                    Console.WriteLine("Error, That is not a valid Username");
 
                     Console.ForegroundColor = ConsoleColor.White;
                 }
-            } 
-            else {
-
+                // Access Denied
                 Console.ForegroundColor = ConsoleColor.Red;
-                
-                Console.WriteLine("Error, That is not a valid Username");
+            
+                Console.WriteLine("Access Denied \n");
 
                 Console.ForegroundColor = ConsoleColor.White;
-            }
-            // Access Denied
-            Console.ForegroundColor = ConsoleColor.Red;
-            
-            Console.WriteLine("Access Denied \n");
 
-            Console.ForegroundColor = ConsoleColor.White;
+                // Software Details
+                Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window or press enter to try again");
 
-            // Software Details
-            Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window or press enter to try again");
-
-            Console.ReadKey();
+                Console.ReadKey();
             }
         }
     }
