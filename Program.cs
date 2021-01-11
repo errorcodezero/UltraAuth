@@ -21,6 +21,7 @@ namespace Application
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             
+            // Will repeat until you are signed in or close window
             while (signedIn == false)
             {
                 // Ask for Username
