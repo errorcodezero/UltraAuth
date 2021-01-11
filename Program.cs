@@ -25,22 +25,22 @@ namespace Application
             while (signedIn == false)
             {
                 // Ask for Username
-            Console.WriteLine("Username: \n");
+                 Console.WriteLine("Username: \n");
 
-            // Returns 0 when the input and username are the same
-            int resultUsername = String.Compare(Username, Convert.ToString(Console.ReadLine()));
+                // Returns 0 when the input and username are the same
+                int resultUsername = String.Compare(Username, Convert.ToString(Console.ReadLine()));
             
-            // Checks if username is valid
-            if (resultUsername == 0) { 
+                // Checks if username is valid
+                if (resultUsername == 0) { 
                 
-                // Ask for Password
-                Console.WriteLine("Password: \n");
+                    // Ask for Password
+                    Console.WriteLine("Password: \n");
 
-                // Returns 0 when the input and password are the same
-                int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
+                    // Returns 0 when the input and password are the same
+                    int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
-                // Checks if password is valid
-                if(resultPassword == 0) {
+                    // Checks if password is valid
+                    if(resultPassword == 0) {
 
                     // Access Granted
                     signedIn = true;
