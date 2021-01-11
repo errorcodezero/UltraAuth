@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abinavvenkit/Desktop/Application/Application.csproj": {}
+    "/Users/abinavvenkit/Desktop/UltraAuth/Application.csproj": {}
   },
   "projects": {
-    "/Users/abinavvenkit/Desktop/Application/Application.csproj": {
+    "/Users/abinavvenkit/Desktop/UltraAuth/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abinavvenkit/Desktop/Application/Application.csproj",
+        "projectUniqueName": "/Users/abinavvenkit/Desktop/UltraAuth/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/abinavvenkit/Desktop/Application/Application.csproj",
+        "projectPath": "/Users/abinavvenkit/Desktop/UltraAuth/Application.csproj",
         "packagesPath": "/Users/abinavvenkit/.nuget/packages/",
-        "outputPath": "/Users/abinavvenkit/Desktop/Application/obj/",
+        "outputPath": "/Users/abinavvenkit/Desktop/UltraAuth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abinavvenkit/.nuget/NuGet/NuGet.Config"

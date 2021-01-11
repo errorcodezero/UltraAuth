@@ -7,8 +7,13 @@ namespace Application
     {
         static void Main(string[] args)
         {
+            // Software Information
             Console.WriteLine("UltraAuth™ All Rights Reserved 2021.");
 
+            // Password and Username
+            String Username = "Username"; // ADD YOUR USERNAME HERE
+            String Password = "Password"; // ADD YOUR PASSWORD HERE
+            
             // Change the appearance of console
             Console.Title = "UltraAuth™";
             Console.ForegroundColor = ConsoleColor.White;
@@ -16,10 +21,6 @@ namespace Application
             
             // Ask for Username
             Console.WriteLine("Username: \n");
-
-            // Password and Username
-            String Username = "Username"; // ADD YOUR USERNAME HERE
-            String Password = "Password"; // ADD YOUR PASSWORD HERE
 
             // Returns 0 when the input and username are the same
             int resultUsername = String.Compare(Username, Convert.ToString(Console.ReadLine()));
