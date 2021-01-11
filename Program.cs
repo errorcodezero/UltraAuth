@@ -62,7 +62,7 @@ namespace Application
 
                         Console.ForegroundColor = ConsoleColor.White;
                     }
-            } 
+                } 
                 else {
 
                     Console.ForegroundColor = ConsoleColor.Red;
