@@ -17,8 +17,8 @@ namespace Application
             Console.WriteLine("Username: \n");
 
             // Password and Username
-            String userName = "bye"; // ADD YOUR USERNAME HERE
-            String Password = "hi"; // ADD YOUR PASSWORD HERE
+            String userName = "Username"; // ADD YOUR USERNAME HERE
+            String Password = "Password"; // ADD YOUR PASSWORD HERE
 
             // Returns 0 when the input and username are the same
             int resultUsername = String.Compare(userName, Convert.ToString(Console.ReadLine()));
