@@ -31,7 +31,7 @@ namespace Application
                 // Ask for Password
                 Console.WriteLine("Password: \n");
 
-                // Returns 0 when the input and username are the same
+                // Returns 0 when the input and password are the same
                 int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
                 // Checks if password is valid
