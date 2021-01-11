@@ -13,13 +13,17 @@ namespace Application
             // Password and Username
             String Username = "Username"; // ADD YOUR USERNAME HERE
             String Password = "Password"; // ADD YOUR PASSWORD HERE
+
+            bool signedIn = false;
             
             // Change the appearance of console
             Console.Title = "UltraAuth™";
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
             
-            // Ask for Username
+            while (signedIn == false)
+            {
+                // Ask for Username
             Console.WriteLine("Username: \n");
 
             // Returns 0 when the input and username are the same
@@ -38,6 +42,8 @@ namespace Application
                 if(resultPassword == 0) {
 
                     // Access Granted
+                    signedIn = true;
+
                     Console.ForegroundColor = ConsoleColor.Green;
                     
                     Console.WriteLine("Access Granted \n");
@@ -63,9 +69,10 @@ namespace Application
             Console.ForegroundColor = ConsoleColor.White;
 
             // Software Details
-            Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
+            Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window or press enter to try again");
 
             Console.ReadKey();
+            }
         }
     }
 }
