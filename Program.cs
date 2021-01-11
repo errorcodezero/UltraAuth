@@ -40,7 +40,7 @@ namespace Application
                     int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
                     // Checks if password is valid
-                    if(resultPassword == 0) {
+                if(resultPassword == 0) {
 
                     // Access Granted
                     signedIn = true;
@@ -55,6 +55,11 @@ namespace Application
                     Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
                     Console.ReadKey();
                 } 
+                else {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    
+                    Console.WriteLine("Error, That is not a valid Password")
+                }
             } 
             else {
 
