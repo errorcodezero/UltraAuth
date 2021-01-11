@@ -39,7 +39,7 @@ namespace Application
                     // Returns 0 when the input and password are the same
                     int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
-                    // Checks if password is valid
+                // Checks if password is valid
                 if(resultPassword == 0) {
 
                     // Access Granted
@@ -58,7 +58,9 @@ namespace Application
                 else {
                     Console.ForegroundColor = ConsoleColor.Red;
                     
-                    Console.WriteLine("Error, That is not a valid Password")
+                    Console.WriteLine("Error, That is not a valid Password");
+
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             } 
             else {
@@ -66,6 +68,8 @@ namespace Application
                 Console.ForegroundColor = ConsoleColor.Red;
                 
                 Console.WriteLine("Error, That is not a valid Username");
+
+                Console.ForegroundColor = ConsoleColor.White;
             }
             // Access Denied
             Console.ForegroundColor = ConsoleColor.Red;
