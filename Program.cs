@@ -25,7 +25,7 @@ namespace Application
             while (signedIn == false)
             {
                 // Ask for Username
-                 Console.WriteLine("Username: \n");
+                Console.WriteLine("Username: \n");
 
                 // Returns 0 when the input and username are the same
                 int resultUsername = String.Compare(Username, Convert.ToString(Console.ReadLine()));
