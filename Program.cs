@@ -5,7 +5,7 @@ namespace Application
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main ()
         {
             // Software Information
             Console.WriteLine("UltraAuth™ All Rights Reserved 2021.");
@@ -41,7 +41,7 @@ namespace Application
                     int resultPassword = String.Compare(Password, Convert.ToString(Console.ReadLine()));
                 
                     // Checks if Password is valid
-                    if(resultPassword == 0) 
+                    if (resultPassword == 0) 
                     {
                         // Access Granted
                         signedIn = true;
