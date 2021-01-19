@@ -33,7 +33,6 @@ namespace Application
                 // Checks if Username is valid
                 if (resultUsername == 0) 
                 { 
-                
                     // Ask for Password
                     Console.WriteLine("Password: \n");
 
