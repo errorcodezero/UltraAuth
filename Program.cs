@@ -55,8 +55,8 @@ namespace UltraAuth
                         Console.WriteLine("UltraAuth™ All Rights Reserved 2021." + " You may now close this window.");
                         
                         Console.ReadKey();
-                    } 
-                    // Is run when Passoword is invalid
+                    }
+                    // Is run when Password is invalid
                     else 
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
