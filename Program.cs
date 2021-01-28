@@ -1,7 +1,7 @@
 ﻿// For the latest version of the project, you can visit the GitHub Repository: https://github.com/yeetsquad747/UltraAuth
 using System;
 
-namespace Application
+namespace UltraAuth
 {
     class Program
     {
